@@ -1,12 +1,13 @@
-#!/bin/zsh
-
+#!/bin/bash
 function File {
-	echo $# #prints the number of argument
+
+    echo $#
 }
 
+# Do not change anything
 if [ ! $# -lt 1 ]; then
-	File $*
-	exit 0
+    File $*
+    exit 0
 fi
 
-zsh prog.sh Shell is fun
+bash prog.sh Shell is fun
